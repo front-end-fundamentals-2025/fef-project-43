@@ -1,0 +1,31 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /*Header*/
+  #header {
+    display: flex;
+    align-items: center; 
+  }
+  
+  #logo {
+    font-weight: 1000;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 1px;
+    margin-left: 20px; 
+  }
+  
+  li{
+    margin-left: 3rem;
+  }
+  a {
+    color: black;
+  }
+  
