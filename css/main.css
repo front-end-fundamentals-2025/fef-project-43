@@ -34,3 +34,9 @@ ul {
   a {
     color: black;
   }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.5; 
+}
