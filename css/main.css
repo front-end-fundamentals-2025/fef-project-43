@@ -48,13 +48,22 @@ ul {
     justify-content: center;
     flex-grow: 0.5; 
 }
-
+.test-item {
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
+}
 .test-item img {
-  width: 50%;
+  width: 100%; 
   height: auto;
   border-radius: 8px;
-  position: absolute;
-  top: 50%;
-  left: 26%;
-  transform: translate(-50%, -50%);
+}
+
+.testing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
