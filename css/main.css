@@ -48,3 +48,13 @@ ul {
     justify-content: center;
     flex-grow: 0.5; 
 }
+
+.test-item img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+}
