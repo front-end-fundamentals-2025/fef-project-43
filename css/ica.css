@@ -65,3 +65,16 @@ p {
   padding: 400px;
   color: white;
 }
+
+/*cathegory images*/
+.fruits-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 300px;
+}
+
+
+.greens {
+  width: 100%;
+  
+}
