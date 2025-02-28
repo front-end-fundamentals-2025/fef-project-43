@@ -54,6 +54,7 @@ ul {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
+  animation: fade 1s ease-out;
 }
 .test-item img {
   width: 100%; 
@@ -66,4 +67,17 @@ ul {
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 1rem;
   padding: 1rem;
+}
+
+/*Animation*/
+
+@keyframes fade {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
