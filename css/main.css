@@ -69,6 +69,21 @@ ul {
   padding: 1rem;
 }
 
+/*Titles*/
+.featured-products{
+  text-align: center;
+}
+.bestsellers{
+  text-align: center;
+}
+
+.new-arrivals{
+  text-align: center;
+}
+
+.special-offers{
+  text-align: center;
+}
 /*Animation*/
 
 @keyframes fade {
