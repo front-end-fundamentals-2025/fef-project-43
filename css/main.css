@@ -73,22 +73,7 @@ ul {
 }
 
 /*Titles*/
-.featured-products{
-  text-align: center;
-  animation: fade 1s ease-out;
-}
-
-.bestsellers{
-  text-align: center;
-  animation: fade 1s ease-out;
-}
-
-.new-arrivals{
-  text-align: center;
-  animation: fade 1s ease-out;
-}
-
-.special-offers{
+.featured-products, .bestsellers, .new-arrivals, .special-offers {
   text-align: center;
   animation: fade 1s ease-out;
 }
