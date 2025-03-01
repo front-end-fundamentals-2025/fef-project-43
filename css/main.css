@@ -8,10 +8,11 @@
     align-items: center;
     /*Moving items to the left*/
     justify-content: flex-start;
-    gap: 100px;
+    gap: 20px;
     padding: 3px;
     background-color: #4e5d42; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    flex-grow: 0;
 }
 
 #logo {
@@ -20,6 +21,7 @@
     display: inline;
     padding: 5px;
     color: white;
+    margin-left: 20px;
   }
 
 body{
@@ -28,7 +30,6 @@ body{
 }
 ul {
     display: flex;
-    list-style: none;
     padding-left: 1px;
     font-size:1.5rem;
   }
@@ -41,12 +42,14 @@ ul {
   }
   a {
     color: white;
+    text-decoration: none;
   }
 
   .nav-container {
     display: flex;
     justify-content: center;
-    flex-grow: 0.5; 
+    flex-grow: 1; 
+    margin-left: 350px;
 }
 .test-item {
   text-align: center;
