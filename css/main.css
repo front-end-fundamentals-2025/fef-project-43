@@ -44,13 +44,14 @@ ul {
     color: white;
     text-decoration: none;
   }
-
+/*the uls*/
   .nav-container {
     display: flex;
     justify-content: center;
     flex-grow: 1; 
     margin-left: 350px;
 }
+/*Whats around the img*/
 .test-item {
   text-align: center;
   background-color: white;
@@ -59,6 +60,8 @@ ul {
   box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
   animation: fade 1s ease-out;
 }
+
+/*The img itself*/
 .test-item img {
   width: 100%; 
   height: auto;
@@ -88,4 +91,22 @@ ul {
       opacity: 1;
       transform: translateY(0);
   }
+}
+
+/*Hover effect for logo and links*/
+a:hover {
+  color: #f1c40f;
+  transform: scale(1.1);
+}
+
+/*Hover effect for grid items*/
+.test-item:hover {
+  transform: scale(0.9); 
+  transition: transform 0.3s ease; 
+}
+
+/*Hover effect for inside grid items*/
+.test-item img:hover {
+  transform: scale(1); 
+  transition: transform 0.3s ease;
 }
