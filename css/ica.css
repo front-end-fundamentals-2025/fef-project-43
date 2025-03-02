@@ -1,53 +1,4 @@
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-/*Header*/
-#header {
-  display: flex;
-  align-items: center;
-  /*Moving items to the left*/
-  justify-content: flex-start;
-  gap: 100px;
-  padding: 15px 20px;
-  background-color: #fb9802;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-  position: relative;
-}
-
-#logo {
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline;
-  padding: 5px;
-  color: white;
-}
-
-body {
-  background-color: #141414;
-}
-ul {
-  display: flex;
-  list-style: none;
-  padding-left: 1px;
-  font-size: 1.5rem;
-}
-
-li {
-  margin-left: 3rem;
-  list-style: none;
-}
-a {
-  color: white;
-  text-decoration: none;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: center;
-  flex-grow: 0.5;
-}
-
+/*cathegory lists left side*/
 .list {
   display: flex;
   margin-top: 70px;
@@ -76,8 +27,6 @@ p {
   row-gap: 100px;
 }
 
-
 .greens {
   width: 100%;
-  
 }
