@@ -9,7 +9,7 @@
     /*Moving items to the left*/
     justify-content: flex-start;
     gap: 20px;
-    padding: 3px;
+    padding: 20px;
     background-color: #4e5d42; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
     flex-grow: 0;
@@ -54,7 +54,7 @@ ul {
 /*Whats around the img*/
 .test-item {
   text-align: center;
-  background-color: white;
+  background-color: #ffad61;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
@@ -79,6 +79,7 @@ ul {
 .featured-products, .bestsellers, .new-arrivals, .special-offers {
   text-align: center;
   animation: fade 1s ease-out;
+  color:white;
 }
 
 /*Animation*/
@@ -109,4 +110,8 @@ a:hover {
 .test-item img:hover {
   transform: scale(1); 
   transition: transform 0.3s ease;
+}
+
+.featured-products{
+  padding-top: 1.5rem;
 }
