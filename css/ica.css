@@ -7,7 +7,7 @@
   justify-content: flex-start;
   text-decoration: none;
   position: absolute;
-  left: -10px;
+  left: -50px;
 }
 
 p {
@@ -30,3 +30,27 @@ p {
 .greens {
   width: 100%;
 }
+
+.subheading {
+  color: white;
+  text-align: flex-start; 
+  font-size: 60px; 
+  font-weight: bold; 
+  margin-top: 4rem;
+  margin-left: 2rem; 
+  letter-spacing: 5px;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+
+
+
