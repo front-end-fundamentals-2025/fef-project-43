@@ -50,38 +50,35 @@ ul {
     display: flex;
     justify-content: center;
     flex-grow: 1; 
-    margin-left: 270px;
+    margin-left: 90px;
 }
-/*Whats around the img*/
-.test-item {
-  text-align: center;
-  background-color: #ffad61;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
-  animation: fade 1s ease-out;
-}
-
-/*The img itself*/
-.test-item img {
-  width: 100%; 
-  height: auto;
-  border-radius: 8px;
-}
-
-.testing-grid {
+/*Grid*/
+.product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
 }
 
-/*Titles*/
-.featured-products, .bestsellers, .new-arrivals, .special-offers {
+.product-card {
+  background-color: #C4661F;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   animation: fade 1s ease-out;
-  color:white;
-  font-size: 25px
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  animation: fade 1s ease-out;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
 /*Animation*/
@@ -101,19 +98,33 @@ a:hover {
   color: #f1c40f;
   transform: scale(1.1);
 }
-
-/*Hover effect for grid items*/
-.test-item:hover {
-  transform: scale(0.9); 
-  transition: transform 0.3s ease; 
-}
-
-/*Hover effect for inside grid items*/
-.test-item img:hover {
-  transform: scale(1); 
-  transition: transform 0.3s ease;
-}
-
-.featured-products{
+.featured-products, .bestsellers, .new-arrivals, .special-offers{
   padding-top: 1.5rem;
+  margin-left: 200px;
+}
+
+.banner{
+  margin-left: 580px;
+}
+
+.bestsellers h2, .new-arrivals h2, .special-offers h2 {
+  font-size: 2rem;      
+  font-weight: 600;    
+ margin-left: 460px
+}
+.featured-products h2{
+  margin-left: 400px;
+  font-size: 2rem;      
+  font-weight: 600; 
+}
+
+.footer-links{
+  margin-left: 380px;
+}
+
+/*Hover*/
+.product-grid:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease-in-out; 
+  filter: brightness(1.1);
 }
