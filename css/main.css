@@ -128,3 +128,25 @@ a:hover {
   transition: transform 0.3s ease-in-out; 
   filter: brightness(1.1);
 }
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  background-color: #f39c12;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #e67e22;
+}
