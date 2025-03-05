@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="shoppincartsheet" href="shoppingcart.css" />
+    <!-- Link to external CSS file -->
+  </head>
+  <body>
+    <header id="header">
+      <a href="index.html" id="logo">Foodie Town</a>
+      <nav>
+        <div class="nav-container">
+          <ul>
+            <li><a href="ica.html">ICA</a></li>
+            <li><a href="lidl.html">LIDL</a></li>
+            <li><a href="willys.html">Willys</a></li>
+            <li><a href="hemkop.html">Hemköp</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search products..." />
+        <button>Search</button>
+      </div>
+      <div id="cart-count">Cart (0)</div>
+    </header>
+
+    <main class="cart">
+      <!-- List of bought items -->
+      <section class="cart-items">
+        <h2>Your Cart</h2>
+        <ul>
+          <li>Item 1 - 10kr</li>
+          <li>Item 2 - 15kr</li>
+          <li>Item 3 - 20kr</li>
+        </ul>
+        <!-- Total price -->
+        <div class="total">Total: 45kr</div>
+      </section>
+
+      <!-- Delivery and other information -->
+      <section class="delivery-info">
+        <h2>Delivery Information</h2>
+        <p>Enter your shipping details at checkout.</p>
+      </section>
+
+      <!-- Pay button -->
+      <section class="payment">
+        <button class="pay-btn">Proceed to Payment</button>
+      </section>
+    </main>
+  </body>
 </html>
