@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Cart</title>
-    <link rel="shoppincartsheet" href="shoppingcart.css" />
+    <link rel="stylesheet" href="css/shoppingcart.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Press+Start+2P&family=Sigmar&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link to external CSS file -->
   </head>
   <body>
@@ -27,29 +31,73 @@
       <div id="cart-count">Cart (0)</div>
     </header>
 
-    <main class="cart">
+    <main>
       <!-- List of bought items -->
-      <section class="cart-items">
+      <section class="cart-container">
         <h2>Your Cart</h2>
         <ul>
           <li>Item 1 - 10kr</li>
           <li>Item 2 - 15kr</li>
           <li>Item 3 - 20kr</li>
         </ul>
-        <!-- Total price -->
-        <div class="total">Total: 45kr</div>
       </section>
 
-      <!-- Delivery and other information -->
-      <section class="delivery-info">
-        <h2>Delivery Information</h2>
-        <p>Enter your shipping details at checkout.</p>
+      <br />
+
+      <!-- Total price -->
+      <section class="total-amount">
+        <h2>Total</h2>
       </section>
 
-      <!-- Pay button -->
-      <section class="payment">
+      <hr />
+
+      <div class="container" <!--Delivery and other information -->
+        <section class="delivery-info">
+          <h2>Delivery Information</h2>
+          <h3>Enter your shipping details.</h3>
+          <h4><input type= "Full Name" placeholder="Name and Surname..."</h4>
+          <h4><input type= "Address" placeholder="Address..."</h4>
+          <h4><input type= "City" placeholder="City..."</h4>
+          <h4><input type= "Postal Code" placeholder="Postal Code..."</h4>
+        </section>
+
+        <!-- Pay button -->
+        <section class="payment">
+          <h2>Payment Option</h2>
+          <h3>Choose your preffered method:</h3>
+          <h4><input type= "radio" id="Card" name="payment" value="Card"</h4>
+          <label for="Card">Card</label>
+          <h4><input type= "radio" id="Swish" name="payment" value="Swish"</h4>
+          <label for="Swish">Swish</label>
+          <h4>
+            <input type= "radio" id="Klarna" name="payment" value="Klarna"
+          </h4>
+          <label for="Klarna">Klarna</label>
+        </section>
+      </div>
+
+      <section>
         <button class="pay-btn">Proceed to Payment</button>
       </section>
     </main>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+      <p>&copy; 2025 Foodie Town. All rights reserved.</p>
+    </footer>
   </body>
 </html>
