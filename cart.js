@@ -33,5 +33,9 @@ addToCartButtons.forEach(button => {
 });
 
 
-//Calls the function
-updateCartCount();
+
+
+//Runs the function on any page w the link
+window.onload = function() {
+    updateCartCount();
+};
