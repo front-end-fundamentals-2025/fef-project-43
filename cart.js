@@ -1,5 +1,5 @@
-//0 saved data goes into an empty array. When there is data, it loads from localstorage
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
+//0 saved data goes into an empty array. When there is data, it loads from sessionstorage
+let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
 
 //Updating amount of items in cart
 function updateCartCount() {
@@ -20,7 +20,7 @@ function addToCart(event) {
   cart.push(item);
 
   //Saving cart update
-  localStorage.setItem("cart", JSON.stringify(cart));
+  sessionStorage.setItem("cart", JSON.stringify(cart));
 
   //Cart count showing
   updateCartCount();
