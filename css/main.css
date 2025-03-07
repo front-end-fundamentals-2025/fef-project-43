@@ -100,28 +100,32 @@ a:hover {
 }
 .featured-products, .bestsellers, .new-arrivals, .special-offers{
   padding-top: 1.5rem;
-  margin-left: 200px;
+  margin-left: 270px;
 }
 
 .banner{
   margin-left: 580px;
 }
 
-.bestsellers h2, .new-arrivals h2, .special-offers h2 {
+.new-arrivals h2, .special-offers h2 {
   font-size: 2rem;      
   font-weight: 600;    
- margin-left: 460px
+ margin-left: 420px
+}
+.bestsellers h2{
+  margin-left: 440px;
+  font-size: 2rem;      
+  font-weight: 600; 
 }
 .featured-products h2{
-  margin-left: 400px;
+  margin-left: 380px;
   font-size: 2rem;      
   font-weight: 600; 
 }
 
 .footer-links{
-  margin-left: 380px;
+  margin-left: 430px;
 }
-
 /*Hover*/
 .product-grid:hover {
   transform: scale(1.05); 
