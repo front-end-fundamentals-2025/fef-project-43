@@ -25,7 +25,7 @@
   }
 
 body{
-    background-color: #5f6f52
+    background-color: #5f6f52;
     
 }
 ul {
@@ -168,4 +168,13 @@ a:hover {
 .banner h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+}
+
+.shopping-cart-icon img{
+  width: 55px;
+  height: auto;
+}
+
+#cart-count a {
+  font-size: 0.9rem;
 }
