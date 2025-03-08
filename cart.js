@@ -3,11 +3,21 @@ let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
 
 //Updating amount of items in cart
 function updateCartCount() {
-  const cartCountElement = document.getElementById('cart-count');
   const cartLength = cart.length;
-  cartCountElement.querySelector('a').textContent = `Cart (${cartLength})`;
-}
+  const cartIconCountElement = document.getElementById('cart-icon-count');
+   //Displays amount of items
+  if (cartLength > 0) {
+  cartIconCountElement.textContent = cartLength > 0 ? cartLength : ''; 
 
+  //Trigger animation when smth is added to the cart
+  if (cartLength > 0) {
+    cartIconCountElement.classList.add('animate-cart');
+    setTimeout(() => {
+      cartIconCountElement.classList.remove('animate-cart');
+    }, 300);
+  }
+}
+}
 //Add items to the cart
 function addToCart(event) {
   const button = event.target;
@@ -32,10 +42,7 @@ addToCartButtons.forEach(button => {
   button.addEventListener('click', addToCart);
 });
 
-
-
-
 //Runs the function on any page w the link
 window.onload = function() {
-    updateCartCount();
+  updateCartCount();
 };

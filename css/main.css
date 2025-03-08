@@ -161,7 +161,7 @@ a:hover {
   color: black;
   padding: 70px 20px;
   height:180px;
-  margin-left: -5px;
+  margin-left: -50px;
   text-align: center;
 }
 
@@ -170,11 +170,42 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.shopping-cart-icon img{
-  width: 55px;
-  height: auto;
+#shopping-cart-icon {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
 }
 
-#cart-count a {
-  font-size: 0.9rem;
+#shopping-cart-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+#cart-icon-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  color:red;
+  font-family:arial;
+  margin-top:-0.3rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Animation for cart icon nr*/
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animate-cart {
+  animation: bounce 0.3s ease;
 }
