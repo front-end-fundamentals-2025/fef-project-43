@@ -174,7 +174,12 @@ a:hover {
   position: relative;
   left: -35px;  
 }
-.banner p, button{
+.banner p{
+  position: relative;
+  left: -35px;  
+}
+
+.banner button{
   position: relative;
   left: -35px;  
 }
