@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Press+Start+2P&family=Sigmar&display=swap"
       rel="stylesheet"
     />
-    <!-- Link to external CSS file -->
   </head>
   <body>
     <header id="header">
@@ -29,54 +28,51 @@
         <input type="text" placeholder="Search products..." />
         <button>Search</button>
       </div>
-      <div id="cart-count">
-        <a href="shoppingcart.html">Cart (0)</a>
-      </div>
-      >
+      <div id="shopping-cart-icon" class="shopping-cart-icon">
+        <a href="shoppingcart.html">
+            <img src="img/shoppingcart.png" alt="Shopping Cart">
+            <span id="cart-icon-count">0</span>
+        </a>
     </header>
 
     <main>
-      <!-- List of bought items -->
       <section class="cart-container">
         <h2>Your Cart</h2>
-        <ul>
-          <li>Item 1 - 10kr</li>
-          <li>Item 2 - 15kr</li>
-          <li>Item 3 - 20kr</li>
-        </ul>
       </section>
 
       <br />
 
-      <!-- Total price -->
       <section class="total-amount">
         <h2>Total</h2>
       </section>
 
       <hr />
 
-      <div class="container" <!--Delivery and other information -->
+      <div class="container">
         <section class="delivery-info">
           <h2>Delivery Information</h2>
           <h3>Enter your shipping details.</h3>
-          <h4><input type= "Full Name" placeholder="Name and Surname..."</h4>
-          <h4><input type= "Address" placeholder="Address..."</h4>
-          <h4><input type= "City" placeholder="City..."</h4>
-          <h4><input type= "Postal Code" placeholder="Postal Code..."</h4>
+          <h4><input type="text" placeholder="Name and Surname..." /></h4>
+          <h4><input type="text" placeholder="Address..." /></h4>
+          <h4><input type="text" placeholder="City..." /></h4>
+          <h4><input type="text" placeholder="Postal Code..." /></h4>
         </section>
 
-        <!-- Pay button -->
         <section class="payment">
           <h2>Payment Option</h2>
-          <h3>Choose your preffered method:</h3>
-          <h4><input type= "radio" id="Card" name="payment" value="Card"</h4>
-          <label for="Card">Card</label>
-          <h4><input type= "radio" id="Swish" name="payment" value="Swish"</h4>
-          <label for="Swish">Swish</label>
+          <h3>Choose your preferred method:</h3>
           <h4>
-            <input type= "radio" id="Klarna" name="payment" value="Klarna"
+            <input type="radio" id="Card" name="payment" value="Card" />
+            <label for="Card">Card</label>
           </h4>
-          <label for="Klarna">Klarna</label>
+          <h4>
+            <input type="radio" id="Swish" name="payment" value="Swish" />
+            <label for="Swish">Swish</label>
+          </h4>
+          <h4>
+            <input type="radio" id="Klarna" name="payment" value="Klarna" />
+            <label for="Klarna">Klarna</label>
+          </h4>
         </section>
       </div>
 
@@ -85,7 +81,6 @@
       </section>
     </main>
 
-    <!--Footer-->
     <footer>
       <div class="footer-content">
         <div class="footer-links">
