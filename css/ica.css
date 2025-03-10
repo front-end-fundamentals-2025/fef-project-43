@@ -1,4 +1,4 @@
-/*cathegory lists left side*/
+/*category lists left side*/
 .list {
   display: flex;
   margin-top: 70px;
@@ -23,7 +23,7 @@ p {
   color: white;
 }
 
-/*cathegory images*/
+/*category images*/
 .fruits-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -34,6 +34,16 @@ p {
 
 .greens {
   width: 100%;
+  background-color:  #ffad61;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fade 1s ease-out;
+  color:#611a1a;
 }
 
 .subheading {
@@ -55,6 +65,8 @@ figcaption {
   font-size: 1.2rem;
   letter-spacing: 2px;
 }
+
+
 
 
 
