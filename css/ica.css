@@ -73,8 +73,31 @@ margin-top: 5rem;
 
 }
 
+/*Articles*/
+.subheading p{
+  color:#ffad61;
+}
 
 
+/*button design*/
+.add-to-cart {
+  background-color: #ffad61; 
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: fade 1s ease-out;
+  margin-top:15px;
+}
 
+.add-to-cart:hover {
+  background-color: #ff8c00;
+  transform: scale(1.05);
+}
 
-
+.fruits-container figcaption{
+  animation: fade 1s ease-out;
+}
