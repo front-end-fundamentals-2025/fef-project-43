@@ -67,38 +67,12 @@ figcaption {
   letter-spacing: 2px;
 }
 
-.apple {
-  display: block;
-  width: 40%;
-  margin: 0 auto;
-  padding: 5rem;
-}
-
-.apple-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 /*Articles*/
 .subheading p {
   color: #ffad61;
 }
 
-.apple-heading {
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 3px;
-  color: #ffad61;
-}
 
-.apple-text {
-  font-size: 20px;
-  font-weight: lighter;
-  letter-spacing: 3px;
-  color: white;
-}
 /*button design*/
 .add-to-cart {
   background-color: #ffad61;

@@ -1,0 +1,32 @@
+.apple {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 5rem;
+  }
+  
+  .apple-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .apple-heading {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffad61;
+  }
+  
+  .apple-text {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+  }
+
+  .appletext-container {
+    text-align: center;
+  }
