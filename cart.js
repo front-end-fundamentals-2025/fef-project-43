@@ -7,7 +7,7 @@ function updateCartCount() {
   const cartIconCountElement = document.getElementById('cart-icon-count');
    //Displays amount of items
   if (cartLength > 0) {
-  cartIconCountElement.textContent = cartLength > 0 ? cartLength : ''; 
+    cartIconCountElement.textContent = cartLength > 0 ? cartLength : '';
 
     //Trigger animation when smth is added to the cart
     cartIconCountElement.classList.add('animate-cart');
@@ -22,10 +22,12 @@ function updateCartCount() {
 //Add items to the cart
 function addToCart(event) {
   const button = event.target;
+  const img = button.parentElement.querySelector("img")
   const item = {
     id: button.getAttribute('data-id'),
     name: button.getAttribute('data-name'),
-    price: button.getAttribute('data-price')
+    price: button.getAttribute('data-price'),
+    imgSrc: img.getAttribute('src')
   };
 
   cart.push(item);
@@ -73,6 +75,7 @@ function displayCart() {
       <p><strong>${item.name}</strong></p>
       <p>Price:${item.price}</p>
       <p>Quantity: 1</p>
+      <img src=${item.imgSrc} />
       <button class="remove-btn" data-index="${index}">Remove</button>
     `;
 
