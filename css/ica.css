@@ -73,17 +73,14 @@ figcaption {
   padding: 5rem;
 }
 
-<<<<<<< HEAD
 .apple-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-=======
 /*Articles*/
 .subheading p{
   color:#ffad61;
->>>>>>> 756b0f557625fde54fa5a3a91e002e529ad6e4fe
 }
 
 .apple-heading {
@@ -93,14 +90,12 @@ figcaption {
   color: #ffad61;
 }
 
-<<<<<<< HEAD
 .apple-text {
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 3px;
   color: white;
 }
-=======
 /*button design*/
 .add-to-cart {
   background-color: #ffad61; 
@@ -123,4 +118,3 @@ figcaption {
 .fruits-container figcaption{
   animation: fade 1s ease-out;
 }
->>>>>>> 756b0f557625fde54fa5a3a91e002e529ad6e4fe
