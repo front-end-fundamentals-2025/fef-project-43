@@ -9,7 +9,8 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Press+Start+2P&family=Sigmar&display=swap"
       rel="stylesheet"
-    />
+      />
+      <script src="cart.js" defer></script>
   </head>
   <body>
     <header id="header">
@@ -33,21 +34,20 @@
             <img src="img/shoppingcart.png" alt="Shopping Cart">
             <span id="cart-icon-count">0</span>
         </a>
+      </div>
     </header>
-
+    
     <main>
       <section class="cart-container">
         <h2>Your Cart</h2>
+        <div id="cart-items"></div>
       </section>
-
       <br />
-
       <section class="total-amount">
         <h2>Total</h2>
+        <p id="total-amount">$0.00</p>
       </section>
-
       <hr />
-
       <div class="container">
         <section class="delivery-info">
           <h2>Delivery Information</h2>
@@ -57,7 +57,6 @@
           <h4><input type="text" placeholder="City..." /></h4>
           <h4><input type="text" placeholder="Postal Code..." /></h4>
         </section>
-
         <section class="payment">
           <h2>Payment Option</h2>
           <h3>Choose your preferred method:</h3>
@@ -75,7 +74,6 @@
           </h4>
         </section>
       </div>
-
       <section>
         <button class="pay-btn">Proceed to Payment</button>
       </section>
