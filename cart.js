@@ -110,3 +110,23 @@ function updateCartCount() {
   //If statement to show 0 unless theres an item
   cartIconCountElement.textContent = cartLength > 0 ? cartLength : '0';
 }
+
+
+/*Sources/Refrences:
+
+DOM
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+JSON
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+
+Event Listener
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events
+
+SessionStorage
+https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage
+
+
+Note!
+ChatGPT adjusted the "cartItemDiv.innerHTML"
+*/
