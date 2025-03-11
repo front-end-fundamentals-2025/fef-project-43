@@ -21,7 +21,7 @@
     font-size: 2rem;
     display: inline;
     padding: 5px;
-    color:#3b0c0c;
+    color:#ffad61;
     margin-left: 20px;
   }
 
@@ -43,7 +43,7 @@ ul {
 
   }
   a {
-    color:#3b0c0c;
+    color:#ffad61;
     text-decoration: none;
   }
 /*the uls*/
@@ -199,7 +199,7 @@ a:hover {
   position: absolute;
   top: -5px;
   right: -5px;
-  color:#3b0c0c;
+  color:#ffad61;
   font-family:arial;
   margin-top:-0.3rem;
   font-size: 20px;
