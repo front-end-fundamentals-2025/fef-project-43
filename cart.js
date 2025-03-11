@@ -69,8 +69,8 @@ function displayCart() {
     //Item details
     cartItemDiv.innerHTML = `
       <p><strong>${item.name}</strong></p>
-      <p>Price: $${item.price}</p>
-      <p>Quantity: 1</p> <!-- Assuming 1 for now, you can add quantity logic later -->
+      <p>Price:${item.price}</p>
+      <p>Quantity: 1</p>
       <button class="remove-btn" data-index="${index}">Remove</button>
     `;
 
