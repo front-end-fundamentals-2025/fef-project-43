@@ -43,3 +43,16 @@ categories.forEach(category => {
     //List to ul
     categoryList.appendChild(li);
 });
+
+
+/*Sources/Refrences:
+
+DOM:
+1. https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+2. Creating element:
+   https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+1. forEach: 
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+*/
