@@ -6,18 +6,19 @@ function updateCartCount() {
   const cartLength = cart.length;
   const cartIconCountElement = document.getElementById('cart-icon-count');
    //Displays amount of items
-
-  cartIconCountElement.textContent = cartLength > 0 ? cartLength : '';
-
-  //Trigger animation when smth is added to the cart
   if (cartLength > 0) {
+    cartIconCountElement.textContent = cartLength > 0 ? cartLength : '';
+
+    //Trigger animation when smth is added to the cart
     cartIconCountElement.classList.add('animate-cart');
     setTimeout(() => {
       cartIconCountElement.classList.remove('animate-cart');
     }, 300);
+  } else {
+    cartIconCountElement.textContent = '0';
   }
-  
 }
+
 //Add items to the cart
 function addToCart(event) {
   const button = event.target;
@@ -48,6 +49,7 @@ addToCartButtons.forEach(button => {
 window.onload = function() {
   updateCartCount();
 };
+
 //Only run carthtml to display items
 if (window.location.pathname.includes('shoppingcart.html')) {
   displayCart();
@@ -77,7 +79,7 @@ function displayCart() {
       <button class="remove-btn" data-index="${index}">Remove</button>
     `;
 
-    //Itemto the cart container
+    //Item to the cart container
     cartItemsContainer.appendChild(cartItemDiv);
 
     //Total amount
@@ -89,7 +91,7 @@ function displayCart() {
   });
 
   //Update total amount
-  totalAmountElement.textContent = `${totalAmount.toFixed(2)} SEK`;
+  totalAmountElement.textContent = `${totalAmount.toFixed(2)}kr`;
 }
 
 //Function to remove
@@ -106,13 +108,6 @@ function removeItem(event) {
   displayCart();
 }
 
-function updateCartCount() {
-  const cartIconCountElement = document.getElementById('cart-icon-count');
-  const cartLength = cart.length;
-
-  //If statement to show 0 unless theres an item
-  cartIconCountElement.textContent = cartLength > 0 ? cartLength : '0';
-}
 
 
 /*Sources/Refrences:
