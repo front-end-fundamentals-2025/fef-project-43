@@ -7,11 +7,11 @@
   justify-content: flex-start;
   text-decoration: none;
   position: absolute;
-  left: -50px;
+  left: 0;
 }
 
 #logo {
-  position: relative;  
+  position: relative;
   /*puts the logo above whatever is blocking it*/
   z-index: 10;
 }
@@ -34,7 +34,7 @@ p {
 
 .greens {
   width: 100%;
-  background-color:  #ffad61;
+  background-color: #ffad61;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -43,16 +43,16 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   animation: fade 1s ease-out;
-  color:#611a1a;
+  color: #611a1a;
 }
 
 .subheading {
   color: white;
-  text-align: flex-start; 
-  font-size: 60px; 
-  font-weight: bold; 
+  text-align: flex-start;
+  font-size: 60px;
+  font-weight: bold;
   margin-top: 4rem;
-  margin-left: 2rem; 
+  margin-left: 2rem;
   letter-spacing: 5px;
 }
 
@@ -67,14 +67,29 @@ figcaption {
 }
 
 .apple {
-  margin-left: 30rem;
-margin-top: 5rem;
-  width: 50%
-
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  padding: 5rem;
 }
 
+.apple-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.apple-heading {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #ffad61;
+}
 
-
-
-
+.apple-text {
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: white;
+}
