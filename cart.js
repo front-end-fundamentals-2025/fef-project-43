@@ -6,8 +6,8 @@ function updateCartCount() {
   const cartLength = cart.length;
   const cartIconCountElement = document.getElementById('cart-icon-count');
    //Displays amount of items
-  if (cartLength > 0) {
-  cartIconCountElement.textContent = cartLength > 0 ? cartLength : ''; 
+
+  cartIconCountElement.textContent = cartLength > 0 ? cartLength : '';
 
   //Trigger animation when smth is added to the cart
   if (cartLength > 0) {
@@ -16,7 +16,7 @@ function updateCartCount() {
       cartIconCountElement.classList.remove('animate-cart');
     }, 300);
   }
-}
+  
 }
 //Add items to the cart
 function addToCart(event) {
@@ -89,7 +89,7 @@ function displayCart() {
   });
 
   //Update total amount
-  totalAmountElement.textContent = `$${totalAmount.toFixed(2)}`;
+  totalAmountElement.textContent = `${totalAmount.toFixed(2)} SEK`;
 }
 
 //Function to remove
