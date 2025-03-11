@@ -81,8 +81,8 @@ figcaption {
 }
 
 /*Articles*/
-.subheading p{
-  color:#ffad61;
+.subheading p {
+  color: #ffad61;
 }
 
 .apple-heading {
@@ -100,7 +100,7 @@ figcaption {
 }
 /*button design*/
 .add-to-cart {
-  background-color: #ffad61; 
+  background-color: #ffad61;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -109,7 +109,7 @@ figcaption {
   border-radius: 5px;
   cursor: pointer;
   animation: fade 1s ease-out;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .add-to-cart:hover {
@@ -117,6 +117,6 @@ figcaption {
   transform: scale(1.05);
 }
 
-.fruits-container figcaption{
+.fruits-container figcaption {
   animation: fade 1s ease-out;
 }
