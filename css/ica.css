@@ -7,7 +7,6 @@
   justify-content: flex-start;
   text-decoration: none;
   position: absolute;
-
 }
 
 #logo {
@@ -19,7 +18,6 @@ p {
   font-weight: 700;
   font-size: 2rem;
   display: inline;
-  padding: 400px;
   color: white;
 }
 
@@ -71,7 +69,6 @@ figcaption {
   color: #ffad61;
 }
 
-
 /*button design*/
 .add-to-cart {
   background-color: #ffad61;
@@ -96,13 +93,12 @@ figcaption {
 }
 
 .ica-homepage {
-  display:flex;
- justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
   width: 70%;
   margin: auto;
   margin-right: 0;
 }
-
 
 .ica-container {
   display: grid;
@@ -111,4 +107,3 @@ figcaption {
   margin-top: 100px;
   row-gap: 100px;
 }
-
