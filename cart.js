@@ -23,6 +23,9 @@ function updateCartCount() {
 function addToCart(event) {
   const button = event.target;
   const img = button.parentElement.querySelector("img");
+
+  img.classList.add("cart-img");
+
   const item = {
     id: button.getAttribute("data-id"),
     name: button.getAttribute("data-name"),
