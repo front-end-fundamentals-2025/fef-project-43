@@ -14,7 +14,7 @@
   /*puts the logo above whatever is blocking it*/
   z-index: 10;
 }
-p {
+subheading p {
   font-weight: 700;
   font-size: 2rem;
   display: inline;
