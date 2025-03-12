@@ -1,8 +1,14 @@
 .apple {
   display: block;
   width: 40%;
-  margin: 0 auto;
-  padding: 5rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  padding: 1rem;
+  background-color: #ffad61;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fade 1s ease-out;
 }
 
 .apple-container {
@@ -24,7 +30,7 @@
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 3px;
-  color: white;
+  color: #611a1a;
   text-align: center;
 }
 

@@ -67,7 +67,7 @@ figcaption {
 
 /*Articles*/
 .subheading p {
-  color: #ffad61;
+  color: #611a1a;
 }
 
 /*button design*/
@@ -97,6 +97,7 @@ figcaption {
   display: flex;
   justify-content: flex-end;
   width: 70%;
+  padding: 2rem;
   margin: auto;
   margin-right: 0;
 }
@@ -117,8 +118,26 @@ figcaption {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   animation: fade 1s ease-out;
-  color: #611a1a;
 }
+
+.ica-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  filter: brightness(1.1);
+}
+
+.ica-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ margin-left: 30rem;
+ font-size: 30px;
+  padding-top: 1.5rem;
+  color: #611a1a;
+  
+}
+
+
 
 
 
