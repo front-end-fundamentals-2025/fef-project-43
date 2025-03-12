@@ -14,6 +14,13 @@
   max-height: 400px;
   overflow-y: auto;
 }
+
+.cart-img {
+  width: 100%; /* Makes it responsive */
+  max-width: 150px;
+  height: auto;
+}
+
 /* Sections */
 .total-amount {
   padding: 20px;
