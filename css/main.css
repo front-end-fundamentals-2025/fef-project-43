@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  background-color: #1f2010;
+  background-color: #686d38;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
   flex-grow: 0;
 }
@@ -21,7 +21,7 @@
   font-size: 2rem;
   display: inline;
   padding: 5px;
-  color: #686d38;
+  color: #ffad61;
 }
 
 body {
