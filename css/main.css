@@ -11,7 +11,11 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+<<<<<<< HEAD
   background-color: #4e5d42;
+=======
+  background-color: #686d38;
+>>>>>>> 975218e8107cc5b596318818856fd312c0f624e9
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
   flex-grow: 0;
 }
@@ -25,7 +29,11 @@
 }
 
 body {
+<<<<<<< HEAD
   background-color: #5f6f52;
+=======
+  background-color: #e6e2d3;
+>>>>>>> 975218e8107cc5b596318818856fd312c0f624e9
 }
 ul {
   display: flex;
@@ -213,8 +221,4 @@ a:hover {
 }
 .animate-cart {
   animation: bounce 0.3s ease;
-}
-
-footer {
-  padding: 5rem;
 }

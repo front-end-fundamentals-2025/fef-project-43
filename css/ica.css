@@ -7,7 +7,6 @@
   justify-content: flex-start;
   text-decoration: none;
   position: absolute;
-
 }
 
 #logo {
@@ -15,12 +14,12 @@
   /*puts the logo above whatever is blocking it*/
   z-index: 10;
 }
-p {
-  font-weight: 700;
-  font-size: 2rem;
-  display: inline;
-  padding: 400px;
-  color: white;
+.subheading p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  flex-wrap: wrap;
 }
 
 /*category images*/
@@ -48,10 +47,10 @@ p {
 
 .subheading {
   color: white;
-  text-align: flex-start;
+  text-align: center;
+  flex-wrap: wrap;
   font-size: 60px;
   font-weight: bold;
-  margin-top: 4rem;
   margin-left: 2rem;
   letter-spacing: 5px;
 }
@@ -70,7 +69,6 @@ figcaption {
 .subheading p {
   color: #ffad61;
 }
-
 
 /*button design*/
 .add-to-cart {
@@ -96,13 +94,12 @@ figcaption {
 }
 
 .ica-homepage {
-  display:flex;
- justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
   width: 70%;
   margin: auto;
   margin-right: 0;
 }
-
 
 .ica-container {
   display: grid;
