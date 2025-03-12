@@ -1,58 +1,54 @@
 * {
   font-family: "Sigmar", serif;
-  
 }
 
 /*Header*/
 #header {
-    display: flex;
-    align-items: center;
-    /*Moving items to the left*/
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    background-color: #4e5d42; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-    flex-grow: 0;
+  display: flex;
+  align-items: center;
+  /*Moving items to the left*/
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #4e5d42;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  flex-grow: 0;
 }
 
 #logo {
-    font-weight: 600;
-    font-size: 2rem;
-    display: inline;
-    padding: 5px;
-    color:#ffad61;
-  }
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline;
+  padding: 5px;
+  color: #ffad61;
+}
 
-body{
-    background-color: #5f6f52;
-    
+body {
+  background-color: #5f6f52;
 }
 ul {
-    display: flex;
-    justify-content: center;
-    padding-left: 1px;
-    font-size:1.5rem;
-    flex-wrap: wrap;
-  }
-  
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
 
-  li{
-    list-style:none;
-    padding: 0 1rem 0 1rem
-
-  }
-  a {
-    color:#ffad61;
-    text-decoration: none;
-  }
+li {
+  list-style: none;
+  padding: 0 1rem 0 1rem;
+}
+a {
+  color: #ffad61;
+  text-decoration: none;
+}
 /*the uls*/
-  .nav-container {
-    display: flex;
+.nav-container {
+  display: flex;
 
-    flex-wrap: wrap;
-    flex-grow: 1; 
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 /*Grid*/
 .product-grid {
@@ -62,13 +58,13 @@ ul {
 }
 
 .product-card {
-  background-color:  #ffad61;
+  background-color: #ffad61;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   animation: fade 1s ease-out;
-  color:#611a1a;
+  color: #611a1a;
 }
 
 .product-card img {
@@ -88,45 +84,49 @@ ul {
 /*Animation*/
 @keyframes fade {
   0% {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   100% {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 /*Hover effect for logo and links*/
 a:hover {
-  color:white;
+  color: white;
   transform: scale(1.1);
 }
-.featured-products, .bestsellers, .new-arrivals, .special-offers{
+.featured-products,
+.bestsellers,
+.new-arrivals,
+.special-offers {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 1.5rem;
-  color:#3b0c0c;
+  color: #3b0c0c;
 }
 
-.new-arrivals h2, .special-offers h2 {
-  font-size: 2rem;      
-  font-weight: 600;    
+.new-arrivals h2,
+.special-offers h2 {
+  font-size: 2rem;
+  font-weight: 600;
 }
-.bestsellers h2{
-  font-size: 2rem;      
-  font-weight: 600; 
+.bestsellers h2 {
+  font-size: 2rem;
+  font-weight: 600;
 }
-.featured-products h2{
-  font-size: 2rem;      
-  font-weight: 600; 
+.featured-products h2 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 /*Hover*/
 .product-grid:hover {
-  transform: scale(1.05); 
-  transition: transform 0.3s ease-in-out; 
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
   filter: brightness(1.1);
 }
 
@@ -155,10 +155,10 @@ a:hover {
 
 /*Banner*/
 .banner {
-  background-color:#ffad61;
+  background-color: #ffad61;
   color: #611a1a;
   padding: 70px 50px;
-  height:180px;
+  height: 180px;
   margin: 0 auto;
   text-align: center;
 }
@@ -168,11 +168,11 @@ a:hover {
   margin-bottom: 1rem;
   position: relative;
 }
-.banner p{
+.banner p {
   position: relative;
 }
 
-.banner button{
+.banner button {
   position: relative;
 }
 #shopping-cart-icon {
@@ -191,9 +191,9 @@ a:hover {
   position: absolute;
   top: -5px;
   right: -5px;
-  color:#ffad61;
-  font-family:arial;
-  margin-top:-0.3rem;
+  color: #ffad61;
+  font-family: arial;
+  margin-top: -0.3rem;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -213,4 +213,8 @@ a:hover {
 }
 .animate-cart {
   animation: bounce 0.3s ease;
+}
+
+footer {
+  padding: 5rem;
 }
