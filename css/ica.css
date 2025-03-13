@@ -96,12 +96,6 @@ figcaption {
   letter-spacing: 2px;
 }
 
-/*Articles*/
-.subheading p {
-  color: #611a1a;
-  padding-left:2rem;
-}
-
 /*button design*/
 .add-to-cart {
   background-color: #ffad61;
@@ -131,7 +125,6 @@ figcaption {
   width: 70%;
   padding: 2rem;
   margin: auto;
-
 }
 
 .ica-container {
