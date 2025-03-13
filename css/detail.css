@@ -4,7 +4,7 @@
   margin-top: 5rem;
   margin-left: 5rem;
   padding: 1rem;
-  background-color: #ffad61;
+  background-color: #f39c12;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -23,7 +23,7 @@
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 3px;
-  color: #ffad61;
+  color: #f39c12;
 }
 
 .apple-text {
