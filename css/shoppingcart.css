@@ -3,6 +3,8 @@
   margin-top: 20px;
   background-color: #fffdd0;
   border-radius: 8px;
+  height: 400px;
+  overflow: hidden;
 }
 
 .cart-container h2 {
@@ -16,6 +18,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 .cart-item {
@@ -41,7 +45,7 @@
 
 .cart-item-details p {
   font-size: 1rem;
-  color:black;
+  color: black;
 }
 
 .cart-item-actions {
