@@ -41,3 +41,14 @@
 .add-to-cart {
   align-items: center;
 }
+
+/*@media rule*/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #90a34d;
+  }
+  .apple-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -250,4 +250,5 @@ a:hover {
 
 footer {
   padding: 10rem;
+  flex-wrap: wrap;
 }
