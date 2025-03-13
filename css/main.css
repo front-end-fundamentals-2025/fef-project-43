@@ -40,8 +40,22 @@
 }
 
 body {
-  background-color: #e6e2d3;
+  background-color: #e4d6a6;
 }
+
+/*@media rules*/
+@media screen and (min-width: 300px) {
+  body {
+    background-color: #90a34d;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: #ecb597;
+  }
+}
+
 ul {
   display: flex;
   justify-content: center;
