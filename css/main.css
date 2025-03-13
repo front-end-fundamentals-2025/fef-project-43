@@ -43,19 +43,6 @@ body {
   background-color: #e4d6a6;
 }
 
-/*@media rules*/
-@media screen and (max-width: 920px) {
-  body {
-    background-color: #90a34d;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    background-color: #ecb597;
-  }
-}
-
 ul {
   display: flex;
   justify-content: center;
@@ -108,6 +95,20 @@ a {
   font-size: 1.2rem;
   font-weight: 500;
   margin-top: 1rem;
+}
+
+/*@media rule*/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #90a34d;
+  }
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-card {
+    width: 85%; /* Make boxes take most of the width */
+  }
 }
 
 /*Animation*/
