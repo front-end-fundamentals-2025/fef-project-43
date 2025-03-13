@@ -58,7 +58,7 @@
 .fruits-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 300px;
+  margin-left: 10px;
   margin-top: 100px;
   row-gap: 100px;
 }
@@ -100,6 +100,7 @@ figcaption {
 /*Articles*/
 .subheading p {
   color: #611a1a;
+  padding-left:2rem;
 }
 
 /*button design*/
