@@ -44,13 +44,13 @@ body {
 }
 
 /*@media rules*/
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 920px) {
   body {
     background-color: #90a34d;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   body {
     background-color: #ecb597;
   }
