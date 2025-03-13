@@ -172,7 +172,4 @@ figcaption {
     flex-direction: column;
     align-items: center;
   }
-  .product-card {
-    width: 85%; /* Make boxes take most of the width */
-  }
 }
