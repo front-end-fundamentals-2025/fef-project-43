@@ -22,6 +22,21 @@
   display: inline;
   padding: 5px;
   color: #ffad61;
+  animation-name: logoAppear;
+  animation-duration: 2s;
+}
+
+/*logo animation slide in*/
+@keyframes logoAppear {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 body {
