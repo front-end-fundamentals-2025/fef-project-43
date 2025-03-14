@@ -1,5 +1,5 @@
 .category-nav {
-  background-color: #f39c12;
+  background-color: #f1aa36;
   padding: 10px 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -64,7 +64,7 @@
 
 .greens {
   width: 100%;
-  background-color: #f39c12;
+  background-color: #f1aa36;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -138,7 +138,7 @@ figcaption {
 
 .ica-img {
   width: 100%;
-  background-color: #f39c12;
+  background-color: #f1aa36;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
