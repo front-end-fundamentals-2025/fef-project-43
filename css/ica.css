@@ -1,5 +1,5 @@
 .category-nav {
-  background-color: #f1aa36;
+  background-color: #f3b34c;
   padding: 10px 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -35,9 +35,9 @@
 }
 
 .list li a:hover {
-  color: #f39c12;
+  color: #f3b34c;
   background-color: #f8f8f8;
-  border-bottom: 3px solid #f39c12;
+  border-bottom: 3px solid #f3b34c;
 }
 
 #logo {
@@ -64,7 +64,7 @@
 
 .greens {
   width: 100%;
-  background-color: #f1aa36;
+  background-color: #f3b34c;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -98,7 +98,7 @@ figcaption {
 
 /*button design*/
 .add-to-cart {
-  background-color: #f39c12;
+  background-color: #f3b34c;
   color: #611a1a;
   font-size: 16px;
   font-weight: bold;
@@ -138,7 +138,7 @@ figcaption {
 
 .ica-img {
   width: 100%;
-  background-color: #f1aa36;
+  background-color: #f3b34c;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
